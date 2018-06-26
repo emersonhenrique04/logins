@@ -8,7 +8,7 @@ const app = express();
 
 //cria conexão com o banco de dados
 //e a disponibiliza na variável req.db
-app.use(expressMongoDb('mongodb://165.227.221.155/cadastros'));
+app.use(expressMongoDb('mongodb://cadastros:cadastros123@165.227.221.155/cadastros'));
 
 //converte os dados presentes no corpo da requisição em JSON
 //e os disponibiliza na variável req.body
