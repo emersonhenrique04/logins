@@ -119,4 +119,4 @@ app.delete('/cadastro/:id', (req, res) => {
     });
 });
 
-app.listen(process.env.PORT || 3000, () => console.log('Aplicação iniciada'));
+app.listen(process.env.PORT || 3000, () => console.log('Aplicação iniciada na porta 3000'));
